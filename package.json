@@ -1,0 +1,38 @@
+{
+  "name": "remark-preset-webpro",
+  "version": "0.0.1",
+  "description": "Personal remark preset",
+  "homepage": "https://github.com/webpro/remark-preset-webpro",
+  "repository": "github:webpro/remark-preset-webpro",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "remark-order-reference-links.js"
+  ],
+  "scripts": {
+    "test": "npm run format",
+    "format": "remark README.md -o"
+  },
+  "keywords": [],
+  "author": "Lars Kappert <lars@webpro.nl> (https://webpro.nl)",
+  "license": "ISC",
+  "dependencies": {
+    "remark-frontmatter": "4.0.1",
+    "remark-gfm": "3.0.1",
+    "remark-parse": "10.0.1",
+    "remark-prettier": "2.0.0",
+    "remark-reference-links": "6.0.1",
+    "unist-util-is": "5.1.1",
+    "unist-util-remove": "3.1.0",
+    "unist-util-visit": "4.1.1"
+  },
+  "remarkConfig": {
+    "plugins": [
+      "./index.js"
+    ]
+  },
+  "devDependencies": {
+    "remark-cli": "11.0.0"
+  }
+}
