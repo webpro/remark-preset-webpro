@@ -7,8 +7,7 @@
   "type": "module",
   "main": "index.js",
   "files": [
-    "index.js",
-    "remark-order-reference-links.js"
+    "index.js"
   ],
   "scripts": {
     "test": "npm run format",
@@ -20,6 +19,7 @@
   "dependencies": {
     "remark-frontmatter": "4.0.1",
     "remark-gfm": "3.0.1",
+    "remark-order-reference-links": "^0.0.1",
     "remark-parse": "10.0.1",
     "remark-prettier": "2.0.0",
     "remark-reference-links": "6.0.1",
