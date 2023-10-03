@@ -6,7 +6,7 @@ My personal [preset][1] for [remark][2].
 
 - [remark-frontmatter][3]
 - [remark-parse][4]
-- [remark-prettier][5]
+- [unified-prettier][5]
 - [remark-gfm][6]
 - [remark-reference-links][7]
 - [remark-order-reference-links][8]
@@ -15,7 +15,7 @@ My personal [preset][1] for [remark][2].
 [2]: https://github.com/remarkjs/remark
 [3]: https://github.com/remarkjs/remark-frontmatter
 [4]: https://github.com/remarkjs/remark/tree/main/packages/remark-parse
-[5]: https://github.com/remcohaszing/remark-prettier
+[5]: https://github.com/remcohaszing/unified-prettier
 [6]: https://github.com/remarkjs/remark-gfm
 [7]: https://github.com/remarkjs/remark-reference-links
 [8]: https://github.com/webpro/remark-order-reference-links

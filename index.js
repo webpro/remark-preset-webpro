@@ -4,7 +4,7 @@
 
 import remarkFrontMatter from 'remark-frontmatter';
 import remarkParse from 'remark-parse';
-import remarkPrettier from 'remark-prettier';
+import remarkPrettier from 'unified-prettier';
 import remarkGFM from 'remark-gfm';
 import remarkReferenceLinks from 'remark-reference-links';
 import remarkOrderLinks from 'remark-order-reference-links';
