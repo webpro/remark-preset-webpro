@@ -6,6 +6,10 @@
   "repository": "github:webpro/remark-preset-webpro",
   "type": "module",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./preserve-directive-spacing": "./preserve-directive-spacing.js"
+  },
   "files": [
     "index.js",
     "transform-directives.js"
