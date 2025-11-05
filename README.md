@@ -11,7 +11,6 @@ My personal [preset][1] for [remark][2].
 - [remark-reference-links][7]
 - [remark-order-reference-links][8]
 - [remark-directive][9]
-- [remark-mdx][10]
 
 [1]: https://github.com/unifiedjs/unified#preset
 [2]: https://github.com/remarkjs/remark
@@ -22,4 +21,3 @@ My personal [preset][1] for [remark][2].
 [7]: https://github.com/remarkjs/remark-reference-links
 [8]: https://github.com/webpro/remark-order-reference-links
 [9]: https://github.com/remarkjs/remark-directive
-[10]: https://github.com/mdx-js/mdx/tree/main/packages/remark-mdx
