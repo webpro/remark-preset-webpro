@@ -19,16 +19,14 @@
   "license": "ISC",
   "dependencies": {
     "mdast-util-directive": "^3.1.0",
-    "prettier": "^3.3.3",
-    "remark-directive": "^3.0.0",
+    "prettier": "^3.6.2",
+    "remark-directive": "^4.0.0",
     "remark-frontmatter": "^5.0.0",
-    "remark-gfm": "^4.0.0",
+    "remark-gfm": "^4.0.1",
     "remark-order-reference-links": "^0.0.3",
     "remark-parse": "^11.0.0",
     "remark-reference-links": "^7.0.0",
-    "unified-prettier": "^2.0.1",
-    "unist-util-is": "^6.0.0",
-    "unist-util-remove": "^4.0.0",
+    "unified-prettier": "^2.0.1"
   },
   "remarkConfig": {
     "plugins": [
@@ -36,6 +34,7 @@
     ]
   },
   "devDependencies": {
-    "remark-cli": "^12.0.0"
+    "remark-cli": "^12.0.1",
+    "unified": "^11.0.5"
   }
 }
