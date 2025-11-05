@@ -9,7 +9,6 @@ import remarkGFM from 'remark-gfm';
 import remarkReferenceLinks from 'remark-reference-links';
 import remarkOrderLinks from 'remark-order-reference-links';
 import remarkDirective from 'remark-directive';
-import { transformDirectives } from './transform-directives.js';
 
 /** @type {Preset} */
 const remarkPresetWebPro = {
@@ -18,7 +17,6 @@ const remarkPresetWebPro = {
     remarkFrontMatter,
     remarkParse,
     remarkDirective,
-    transformDirectives,
     remarkPrettier,
     remarkGFM,
     remarkReferenceLinks,
