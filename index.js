@@ -13,7 +13,12 @@ import { preserveDirectiveSpacing } from './preserve-directive-spacing.js';
 
 /** @type {Preset} */
 const remarkPresetWebPro = {
-  settings: {},
+  // https://github.com/remarkjs/remark/blob/main/packages/remark-stringify/readme.md#options
+  settings: {
+    bullet: '-',
+    emphasis: '_',
+    tightDefinitions: true
+  },
   plugins: [
     remarkFrontMatter,
     remarkParse,
