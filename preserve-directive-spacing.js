@@ -12,8 +12,7 @@ export function preserveDirectiveSpacing() {
         const serialized = defaultDirectiveHandlers.containerDirective.call(this, node, parent, state, info);
         if (node.children && node.children.length > 0) {
           const lines = serialized.split('\n');
-          const content = lines.slice(1, -1).join('\n');
-          return `${lines[0]}\n\n${content}\n\n${lines[lines.length - 1]}`;
+          return [lines.at(0), lines.slice(1, -1).join('\n'), lines.at(-1)].join('\n\n');
         }
         return serialized;
       }
