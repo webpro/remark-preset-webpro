@@ -9,6 +9,7 @@ import remarkGFM from 'remark-gfm';
 import remarkReferenceLinks from 'remark-reference-links';
 import remarkOrderLinks from 'remark-order-reference-links';
 import remarkDirective from 'remark-directive';
+import remarkValidateRelativeLinks from 'remark-validate-relative-links';
 import { preserveDirectiveSpacing } from './preserve-directive-spacing.js';
 
 /** @type {Preset} */
@@ -27,7 +28,8 @@ const remarkPresetWebPro = {
     remarkPrettier,
     remarkGFM,
     remarkReferenceLinks,
-    remarkOrderLinks
+    remarkOrderLinks,
+    remarkValidateRelativeLinks
   ]
 };
 
