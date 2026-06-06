@@ -11,6 +11,7 @@ import remarkOrderLinks from 'remark-order-reference-links';
 import remarkDirective from 'remark-directive';
 import remarkValidateRelativeLinks from 'remark-validate-relative-links';
 import { preserveDirectiveSpacing } from './preserve-directive-spacing.js';
+import { preserveGfmAlerts } from './preserve-gfm-alerts.js';
 
 /** @type {Preset} */
 const remarkPresetWebPro = {
@@ -25,6 +26,7 @@ const remarkPresetWebPro = {
     remarkParse,
     remarkDirective,
     preserveDirectiveSpacing,
+    preserveGfmAlerts,
     remarkPrettier,
     remarkGFM,
     remarkReferenceLinks,

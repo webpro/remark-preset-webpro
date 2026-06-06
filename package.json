@@ -8,11 +8,11 @@
   "main": "index.js",
   "exports": {
     ".": "./index.js",
-    "./preserve-directive-spacing": "./preserve-directive-spacing.js"
+    "./preserve-directive-spacing": "./preserve-directive-spacing.js",
+    "./preserve-gfm-alerts": "./preserve-gfm-alerts.js"
   },
   "files": [
-    "index.js",
-    "preserve-directive-spacing.js"
+    "*.js"
   ],
   "scripts": {
     "test": "npm run format",
