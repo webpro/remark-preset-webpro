@@ -12,6 +12,7 @@ My personal [preset][1] for [remark][2].
 - [remark-order-reference-links][8]
 - [remark-directive][9]
 - [remark-validate-relative-links][10]
+- [@webpro/remark-wrap-prose][11]
 
 [1]: https://github.com/unifiedjs/unified#preset
 [2]: https://github.com/remarkjs/remark
@@ -23,3 +24,4 @@ My personal [preset][1] for [remark][2].
 [8]: https://github.com/webpro/remark-order-reference-links
 [9]: https://github.com/remarkjs/remark-directive
 [10]: https://github.com/webpro/remark-validate-relative-links
+[11]: https://github.com/webpro/remark-wrap-prose

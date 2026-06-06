@@ -10,6 +10,7 @@ import remarkReferenceLinks from 'remark-reference-links';
 import remarkOrderLinks from 'remark-order-reference-links';
 import remarkDirective from 'remark-directive';
 import remarkValidateRelativeLinks from 'remark-validate-relative-links';
+import remarkWrapProse from '@webpro/remark-wrap-prose';
 import { preserveDirectiveSpacing } from './preserve-directive-spacing.js';
 import { preserveGfmAlerts } from './preserve-gfm-alerts.js';
 
@@ -27,6 +28,7 @@ const remarkPresetWebPro = {
     remarkDirective,
     preserveDirectiveSpacing,
     preserveGfmAlerts,
+    remarkWrapProse,
     remarkPrettier,
     remarkGFM,
     remarkReferenceLinks,
