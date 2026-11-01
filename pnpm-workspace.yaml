@@ -1,0 +1,4 @@
+minimumReleaseAgeExclude:
+  - '@webpro/remark-wrap-prose'
+  - remark-order-reference-links
+  - remark-validate-relative-links
